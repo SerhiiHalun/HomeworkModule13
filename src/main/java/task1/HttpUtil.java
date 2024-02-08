@@ -4,7 +4,6 @@ import com.google.gson.Gson;
 
 import java.io.IOException;
 import java.net.URI;
-import java.net.URL;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
@@ -29,7 +28,7 @@ public class HttpUtil {
   }
 
  }
- public static User sendGet(URI uri){
+ public static User sendGetUserById(URI uri){
   HttpRequest request = HttpRequest.newBuilder().uri(uri).GET().build();
   try {
    HttpResponse<String> response = CLIENT.send(request,HttpResponse.BodyHandlers.ofString());
