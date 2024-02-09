@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a96072c6-7af2-412c-af4f-51859c87fe63" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeworkModule13.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeworkModule13.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/task1/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task1/HttpUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task1/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task1/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,24 +35,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/serge/Downloads/gson-2.10.1.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/serge/Downloads/jsoup-1.17.2.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="A:\Project Java\HomeWorkJava\HomeworkModule13\src\main" />
@@ -89,7 +91,7 @@
       <workItem from="1707328021207" duration="6276000" />
       <workItem from="1707406110124" duration="3789000" />
       <workItem from="1707419936345" duration="5045000" />
-      <workItem from="1707466634986" duration="2901000" />
+      <workItem from="1707466634986" duration="12288000" />
     </task>
     <servers />
   </component>
@@ -103,11 +105,6 @@
           <properties class="java.lang.ExceptionInInitializerError" package="java.lang" />
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/task1/Main.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
