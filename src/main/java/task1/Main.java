@@ -13,7 +13,9 @@ public class Main {
         User createUser = HttpUtil.sendPost(URI.create(USER_URL),user);
         System.out.println(createUser);
         //Task1.GetUserByID
-        String user_URL_id = String.format("%s?id=%d","https://jsonplaceholder.typicode.com/users",createUser.getId());
+
+
+        String user_URL_id = String.format("%s/id=%d","https://jsonplaceholder.typicode.com/users",createUser.getId());
         System.out.println(user_URL_id);
         try {
             System.out.println(HttpUtil.sendGetUserById(new URI(user_URL_id)));

@@ -32,7 +32,11 @@ public class HttpUtil {
 
  }
  public static User sendGetUserById(URI uri){
-  HttpRequest request = HttpRequest.newBuilder().uri(uri).GET().build();
+  HttpRequest request = HttpRequest.newBuilder()
+          .uri(uri)
+          .header("Content-Type", "application/json")
+          .GET()
+          .build();
   try {
    HttpResponse<String> response = CLIENT.send(request,HttpResponse.BodyHandlers.ofString());
     List<User> users = GSON.fromJson(response.body(),new TypeToken<List<User>>(){}.getType());
